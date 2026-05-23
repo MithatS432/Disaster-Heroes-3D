@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4f2c8858828b441abc95232e6c9788, type: 3}
+  m_Name: BedRoom
+  m_EditorClassIdentifier: 
+  roomType: 4
+  questions:
+  - question: "Gece deprem olursa ilk yap\u0131lmas\u0131 gereken nedir?"
+    answers:
+    - Pencereden bakmak
+    - "Ayakkab\u0131 aramak"
+    - "Ba\u015F\u0131n\u0131 koruyup g\xFCvenli pozisyon almak"
+    - "I\u015F\u0131klar\u0131 a\xE7maya ko\u015Fmak"
+    correctIndex: 2
+  - question: "Yata\u011F\u0131n yan\u0131nda ne bulundurmak faydal\u0131d\u0131r?"
+    answers:
+    - Oyun konsolu
+    - "A\u011F\u0131r kutular"
+    - "El feneri ve deprem \xE7antas\u0131"
+    - "Cam e\u015Fya"
+    correctIndex: 2
+  - question: "Deprem s\u0131ras\u0131nda dolap yan\u0131nda dururken neye dikkat
+      edilmelidir?"
+    answers:
+    - "Kapaklar\u0131 a\xE7mak"
+    - Aynaya bakmak
+    - "Dolab\u0131n sabit olup olmad\u0131\u011F\u0131na"
+    - "K\u0131yafet se\xE7mek"
+    correctIndex: 2

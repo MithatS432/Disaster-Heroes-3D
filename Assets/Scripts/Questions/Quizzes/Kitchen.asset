@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4f2c8858828b441abc95232e6c9788, type: 3}
+  m_Name: Kitchen
+  m_EditorClassIdentifier: 
+  roomType: 3
+  questions:
+  - question: "Deprem s\u0131ras\u0131nda mutfakta en b\xFCy\xFCk tehlikelerden biri
+      nedir?"
+    answers:
+    - "Masa \xF6rt\xFCs\xFC"
+    - "A\xE7\u0131k dolap ve k\u0131r\u0131labilir e\u015Fyalar"
+    - "Buzdolab\u0131 sesi"
+    - Yemek kokusu
+    correctIndex: 1
+  - question: Deprem bittikten sonra ilk ne kontrol edilmelidir?
+    answers:
+    - "Telefon \u015Farj\u0131"
+    - Televizyon
+    - "Gaz ka\xE7a\u011F\u0131"
+    - "\u0130nternet ba\u011Flant\u0131s\u0131"
+    correctIndex: 2
+  - question: "Deprem s\u0131ras\u0131nda ocak a\xE7\u0131ksa ne yap\u0131lmal\u0131?"
+    answers:
+    - "Pani\u011Fe kap\u0131lmak"
+    - "Deprem bitince g\xFCvenli \u015Fekilde kontrol etmek"
+    - "Hemen ate\u015Fe su d\xF6kmek"
+    - "Cam a\xE7mak i\xE7in ko\u015Fmak"
+    correctIndex: 1

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4f2c8858828b441abc95232e6c9788, type: 3}
+  m_Name: KidsRoom
+  m_EditorClassIdentifier: 
+  roomType: 2
+  questions:
+  - question: "\xC7ocuk odas\u0131nda deprem s\u0131ras\u0131nda hangi e\u015Fya
+      tehlikeli olabilir?"
+    answers:
+    - "Hal\u0131"
+    - "Sabitlenmemi\u015F dolap"
+    - "Yast\u0131k"
+    - Defter
+    correctIndex: 1
+  - question: "Deprem \xE7antas\u0131 nerede bulunmal\u0131d\u0131r?"
+    answers:
+    - "Ula\u015F\u0131lmas\u0131 zor yerde"
+    - Kilitli dolapta
+    - "Kolay ula\u015F\u0131labilir yerde"
+    - "Balkon d\u0131\u015F\u0131nda"
+    correctIndex: 2
+  - question: "Deprem s\u0131ras\u0131nda oyuncak toplamak neden yanl\u0131\u015Ft\u0131r?"
+    answers:
+    - "Zaman kaybettirdi\u011Fi i\xE7in"
+    - "Oyuncaklar a\u011F\u0131r oldu\u011Fu i\xE7in"
+    - "Oyun bozuldu\u011Fu i\xE7in"
+    - "G\xFCr\xFClt\xFC yapt\u0131\u011F\u0131 i\xE7in"
+    correctIndex: 0

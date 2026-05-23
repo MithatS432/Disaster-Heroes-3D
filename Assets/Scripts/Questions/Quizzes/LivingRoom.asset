@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4f2c8858828b441abc95232e6c9788, type: 3}
+  m_Name: LivingRoom
+  m_EditorClassIdentifier: 
+  roomType: 0
+  questions:
+  - question: "Depreme Yakalanmadan \xD6nce Etrafta Ne Yapard\u0131n\u0131z?"
+    answers:
+    - "Gereksiz objleri etraftan kald\u0131r\u0131r\u0131m"
+    - "Oyuncaklarla oynamaya \xE7al\u0131\u015F\u0131r\u0131m"
+    - "Masalar\u0131 ve kitaplar\u0131 hareket ettiririm"
+    - "Herhangi bir koltu\u011Fun arkas\u0131na saklan\u0131r\u0131m"
+    correctIndex: 0
+  - question: "E\u011Fer oturma odas\u0131nda depreme yakalan\u0131rsan\u0131z ne
+      yapard\u0131n\u0131z?"
+    answers:
+    - "Etraftaki Yast\u0131klar\u0131 Toplar\u0131m"
+    - "Direkt Masan\u0131n Alt\u0131na Girerim"
+    - "En K\xF6\u015Fedeki Masaya Gidip Duvar Hizas\u0131na Ge\xE7erim"
+    - "Tablolara Bakar\u0131m"
+    correctIndex: 2
+  - question: "Deprem s\u0131ras\u0131nda salondaysan en g\xFCvenli davran\u0131\u015F
+      hangisidir?"
+    answers:
+    - "Camdan d\u0131\u015Far\u0131 bakmak"
+    - "Balkona ko\u015Fmak"
+    - "Sa\u011Flam e\u015Fya yan\u0131nda \xE7\xF6k-kapan-tutun"
+    - "Asans\xF6re gitmek"
+    correctIndex: 2
